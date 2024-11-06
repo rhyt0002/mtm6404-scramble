@@ -1,0 +1,115 @@
+/* style.css */
+
+/* General Body Styling */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #202020 0%, #acacac 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main Game Container Styling */
+  .game {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(24, 23, 23, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Title Styling */
+  h1 {
+    font-size: 24px;
+    color: #1e1d1d;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  
+  /* Scrambled Word Styling */
+  p strong {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #3e3d3d;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Text Input Styling */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #000000;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  button:hover {
+    background-color: #7d7a7a;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Message Styling */
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #484646;
+  }
+  
+  /* Score and Game Info Styling */
+  .score-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .score-info p {
+    font-weight: bold;
+    color: #4f4f4f;
+  }
+  
+  /* Game Over Message Styling */
+  .game-over {
+    color: #ec453f;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
